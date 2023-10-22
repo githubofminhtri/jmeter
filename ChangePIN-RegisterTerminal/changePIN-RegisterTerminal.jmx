@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Integration 3" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="domain_POS_" elementType="Argument">
+            <stringProp name="Argument.name">domain_POS_</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">api-integration3.kardsys.com</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccountIncludePIN" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccountIncludePIN</stringProp>
+            <stringProp name="Argument.value">data-pos-account-i3-include-PIN.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccount" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccount</stringProp>
+            <stringProp name="Argument.value">data-pos-account-i3.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">5.9.2.4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Staging 1" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="domain_POS_" elementType="Argument">
+            <stringProp name="Argument.name">domain_POS_</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">kanoo-gateway-sandbox.kardsys.com</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccountIncludePIN" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccountIncludePIN</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s1-include-PIN.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccount" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccount</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s1.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">5.9.2.4</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Input Output Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="dataInputVariable" elementType="Argument">
+            <stringProp name="Argument.name">dataInputVariable</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer;FileServer.getFileServer().getBaseDir();)}${__BeanShell(File.separator;)}dataInput${__BeanShell(File.separator;)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataOutputVariable" elementType="Argument">
+            <stringProp name="Argument.name">dataOutputVariable</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer;FileServer.getFileServer().getBaseDir();)}${__BeanShell(File.separator;)}dataOutput${__BeanShell(File.separator;)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataReportsVariable" elementType="Argument">
+            <stringProp name="Argument.name">dataReportsVariable</stringProp>
+            <stringProp name="Argument.value">${__BeanShell(import org.apache.jmeter.services.FileServer;FileServer.getFileServer().getBaseDir();)}${__BeanShell(File.separator;)}dataReports${__BeanShell(File.separator;)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <SetupThreadGroup guiclass="SetupThreadGroupGui" testclass="SetupThreadGroup" testname="Clear data token POS" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </SetupThreadGroup>
+      <hashTree>
+        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="Clear data token POS" enabled="true">
+          <stringProp name="BeanShellSampler.query">import java.io.File;
+import java.io.IOException;
+
+String filePath = vars.get(&quot;dataOutputVariable&quot;) + vars.get(&quot;dataPosAccount&quot;);
+
+try {
+    File file = new File(filePath);
+    
+    // Create the file if it doesn&apos;t exist
+    if (!file.exists()) {
+        if (file.createNewFile()) {
+            log.info(&quot;File created successfully: &quot; + filePath);
+        } else {
+            log.error(&quot;Failed to create file: &quot; + filePath);
+        }
+    } else {
+        if (file.exists()) {
+        	if (file.delete()) {
+        		log.info(&quot;File deleted successfully: &quot; + filePath);
+        		} else {
+        			log.error(&quot;Failed to delete file: &quot; + filePath);
+        			}
+
+        	} else {
+        		log.info(&quot;File does not exist: &quot; + filePath);
+        		}
+        }
+} catch (IOException e) {
+    log.error(&quot;An error occurred while creating the file: &quot; + filePath);
+    e.printStackTrace();
+}
+
+</stringProp>
+          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
+        </BeanShellSampler>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group Rest PIN - Login POS - Register Terminal - Change PIN POS " enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">25</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">50</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config - data POS Account" enabled="true">
+          <stringProp name="delimiter">,</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="filename">${dataInputVariable}${dataPosAccountIncludePIN}</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <stringProp name="shareMode">shareMode.group</stringProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="variableNames">userID,PIN,email,deviceID,deviceToken</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login to POS" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="appPlatform" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">appPlatform</stringProp>
+                <stringProp name="Argument.value">2</stringProp>
+              </elementProp>
+              <elementProp name="appVersion" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">appVersion</stringProp>
+                <stringProp name="Argument.value">${app_Version}</stringProp>
+              </elementProp>
+              <elementProp name="deviceId" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">deviceId</stringProp>
+                <stringProp name="Argument.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="deviceToken" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">deviceToken</stringProp>
+                <stringProp name="Argument.value">${deviceToken}</stringProp>
+              </elementProp>
+              <elementProp name="pinPass" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">pinPass</stringProp>
+                <stringProp name="Argument.value">${PIN}</stringProp>
+              </elementProp>
+              <elementProp name="userId" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">userId</stringProp>
+                <stringProp name="Argument.value">${userID}</stringProp>
+              </elementProp>
+              <elementProp name="username" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">username</stringProp>
+                <stringProp name="Argument.value">${email}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${domain_POS_}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/visikard/25/accounts/login/pos</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="X-TENANT" elementType="Header">
+                <stringProp name="Header.name">X-TENANT</stringProp>
+                <stringProp name="Header.value">kanoo</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded</stringProp>
+              </elementProp>
+              <elementProp name="deviceId" elementType="Header">
+                <stringProp name="Header.name">deviceId</stringProp>
+                <stringProp name="Header.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="app-platform" elementType="Header">
+                <stringProp name="Header.name">app-platform</stringProp>
+                <stringProp name="Header.value">kanoopos-android</stringProp>
+              </elementProp>
+              <elementProp name="appVersion" elementType="Header">
+                <stringProp name="Header.name">appVersion</stringProp>
+                <stringProp name="Header.value">${app_Version_}</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor " enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">token;merchantID</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$..loginInformation.token;$..fkUser;</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            <stringProp name="JSONPostProcessor.defaultValues">token;merchantID</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion StatusCode_SUCCESS" enabled="true">
+            <stringProp name="JSON_PATH">$.statusCode</stringProp>
+            <stringProp name="EXPECTED_VALUE">SUCCESS</stringProp>
+            <boolProp name="JSONVALIDATION">true</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+            <boolProp name="ISREGEX">true</boolProp>
+          </JSONPathAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Register Terminal" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="terminalId" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">terminalId</stringProp>
+                <stringProp name="Argument.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="terminalName" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">terminalName</stringProp>
+                <stringProp name="Argument.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="merchantId" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">merchantId</stringProp>
+                <stringProp name="Argument.value">${merchantID}</stringProp>
+              </elementProp>
+              <elementProp name="serialNumber" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">serialNumber</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${domain_POS_}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/visikard/terminal/26/registerOrUpdateTerminal</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="X-TENANT" elementType="Header">
+                <stringProp name="Header.name">X-TENANT</stringProp>
+                <stringProp name="Header.value">kanoo</stringProp>
+              </elementProp>
+              <elementProp name="X-TenantID" elementType="Header">
+                <stringProp name="Header.name">X-TenantID</stringProp>
+                <stringProp name="Header.value">kanoo</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded;charset=UTF-8</stringProp>
+              </elementProp>
+              <elementProp name="token" elementType="Header">
+                <stringProp name="Header.name">token</stringProp>
+                <stringProp name="Header.value">${token}</stringProp>
+              </elementProp>
+              <elementProp name="deviceId" elementType="Header">
+                <stringProp name="Header.name">deviceId</stringProp>
+                <stringProp name="Header.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="appVersion" elementType="Header">
+                <stringProp name="Header.name">appVersion</stringProp>
+                <stringProp name="Header.value">${app_Version_}</stringProp>
+              </elementProp>
+              <elementProp name="app-platform" elementType="Header">
+                <stringProp name="Header.name">app-platform</stringProp>
+                <stringProp name="Header.value">kanoopos-android</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion StatusCode_SUCCESS" enabled="true">
+            <stringProp name="JSON_PATH">$.statusCode</stringProp>
+            <stringProp name="EXPECTED_VALUE">SUCCESS</stringProp>
+            <boolProp name="JSONVALIDATION">true</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+            <boolProp name="ISREGEX">true</boolProp>
+          </JSONPathAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">import java.io.FileWriter;
+import java.io.BufferedWriter;
+
+// Specify the file path and name
+String filePath = vars.get(&quot;dataOutputVariable&quot;) + vars.get(&quot;dataPosAccount&quot;);
+BufferedWriter bufferedWriter = null;
+
+try {
+	bufferedWriter = new BufferedWriter(new FileWriter(filePath,true));
+
+		String user_ID_ = vars.get(&quot;userID&quot;);
+		int pin_Pass_ = 111111;
+		String email_ = vars.get(&quot;email&quot;);
+		String merchant_Id_ = vars.get(&quot;merchantID&quot;);
+		String device_ID_ = vars.get(&quot;deviceID&quot;);
+		String device_Token_ = vars.get(&quot;deviceToken&quot;);
+		// Get POS data
+		String content = user_ID_ + &quot;,&quot; + pin_Pass_ + &quot;,&quot; + email_ + &quot;,&quot; + merchant_Id_ + &quot;,&quot; + device_ID_ + &quot;,&quot; + device_Token_+&quot;,\n&quot;;
+		// Write content to file
+     	bufferedWriter.write(content);
+ 
+    // Close the BufferedWriter and FileWriter
+     bufferedWriter.close();
+    
+    // Log a message indicating success
+     log.info(&quot;File successfully written to: &quot; + filePath);
+} catch (Exception e) {
+    // Handle exceptions, e.g., log an error message
+     log.error(&quot;Error writing to the file: &quot; + e.toString());
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Change PIN to 111111" enabled="false">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">currentPin=${PIN}&amp;newPin=111111</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${domain_POS_}</stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.path">/visikard/v1/accounts/pos/update/pin</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="X-TENANT" elementType="Header">
+                <stringProp name="Header.name">X-TENANT</stringProp>
+                <stringProp name="Header.value">kanoo</stringProp>
+              </elementProp>
+              <elementProp name="X-TenantID" elementType="Header">
+                <stringProp name="Header.name">X-TenantID</stringProp>
+                <stringProp name="Header.value">kanoo</stringProp>
+              </elementProp>
+              <elementProp name="Content-Type" elementType="Header">
+                <stringProp name="Header.name">Content-Type</stringProp>
+                <stringProp name="Header.value">application/x-www-form-urlencoded;charset=UTF-8</stringProp>
+              </elementProp>
+              <elementProp name="token" elementType="Header">
+                <stringProp name="Header.name">token</stringProp>
+                <stringProp name="Header.value">${token}</stringProp>
+              </elementProp>
+              <elementProp name="deviceId" elementType="Header">
+                <stringProp name="Header.name">deviceId</stringProp>
+                <stringProp name="Header.value">${deviceID}</stringProp>
+              </elementProp>
+              <elementProp name="appVersion" elementType="Header">
+                <stringProp name="Header.name">appVersion</stringProp>
+                <stringProp name="Header.value">${app_Version_}</stringProp>
+              </elementProp>
+              <elementProp name="app-platform" elementType="Header">
+                <stringProp name="Header.name">app-platform</stringProp>
+                <stringProp name="Header.value">kanoopos-android</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion StatusCode_SUCCESS" enabled="true">
+            <stringProp name="JSON_PATH">$.statusCode</stringProp>
+            <stringProp name="EXPECTED_VALUE">SUCCESS</stringProp>
+            <boolProp name="JSONVALIDATION">true</boolProp>
+            <boolProp name="EXPECT_NULL">false</boolProp>
+            <boolProp name="INVERT">false</boolProp>
+            <boolProp name="ISREGEX">true</boolProp>
+          </JSONPathAssertion>
+          <hashTree/>
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
+            <stringProp name="BeanShellAssertion.query">import java.io.FileWriter;
+import java.io.BufferedWriter;
+
+// Specify the file path and name
+String filePath = vars.get(&quot;dataOutputVariable&quot;) + vars.get(&quot;dataPosAccount&quot;);
+BufferedWriter bufferedWriter = null;
+
+try {
+	bufferedWriter = new BufferedWriter(new FileWriter(filePath,true));
+
+		String user_ID_ = vars.get(&quot;userID&quot;);
+		int pin_Pass_ = 111111;
+		String email_ = vars.get(&quot;email&quot;);
+		String merchant_Id_ = vars.get(&quot;merchantID&quot;);
+		String device_ID_ = vars.get(&quot;deviceID&quot;);
+		String device_Token_ = vars.get(&quot;deviceToken&quot;);
+		// Get POS data
+		String content = user_ID_ + &quot;,&quot; + pin_Pass_ + &quot;,&quot; + email_ + &quot;,&quot; + merchant_Id_ + &quot;,&quot; + device_ID_ + &quot;,&quot; + device_Token_+&quot;,\n&quot;;
+		// Write content to file
+     	bufferedWriter.write(content);
+ 
+    // Close the BufferedWriter and FileWriter
+     bufferedWriter.close();
+    
+    // Log a message indicating success
+     log.info(&quot;File successfully written to: &quot; + filePath);
+} catch (Exception e) {
+    // Handle exceptions, e.g., log an error message
+     log.error(&quot;Error writing to the file: &quot; + e.toString());
+}
+</stringProp>
+            <stringProp name="BeanShellAssertion.filename"></stringProp>
+            <stringProp name="BeanShellAssertion.parameters"></stringProp>
+            <boolProp name="BeanShellAssertion.resetInterpreter">false</boolProp>
+          </BeanShellAssertion>
+          <hashTree/>
+        </hashTree>
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
+          <boolProp name="displayJMeterProperties">false</boolProp>
+          <boolProp name="displayJMeterVariables">true</boolProp>
+          <boolProp name="displaySystemProperties">false</boolProp>
+        </DebugSampler>
+        <hashTree/>
+      </hashTree>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <url>true</url>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

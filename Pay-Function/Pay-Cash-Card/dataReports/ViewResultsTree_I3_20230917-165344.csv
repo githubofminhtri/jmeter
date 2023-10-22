@@ -1,0 +1,10 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1694944425031,2,Clear data,200,OK,Clear data Signin POS Token 1-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944425037,1338,Login POS,200,,Login POS Thread - Get Token - Device ID 2-1,text,true,,2996,579,1,1,https://api-integration3.kardsys.com/visikard/25/accounts/login/pos,,1338,UTF-8,1,0,chishiki,0,930
+1694944426386,3,Clear data,200,OK,Clear data Signin User Token 3-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944426393,1519,Signin,200,,Signin - Get info users 4-1,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1518,UTF-8,1,0,chishiki,0,910
+1694944427914,514,Get Card Token,200,,Signin - Get info users 4-1,text,true,,1993,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,513,ISO-8859-1,1,0,chishiki,0,0
+1694944428441,1180,Get QR code Cash card,200,,Payment Cash Card - Scan To Pay 5-1,text,true,,854,439,1,1,https://api-integration3.kardsys.com/visipay/api/v2/getKeyQRCode,,1179,ISO-8859-1,1,0,chishiki,0,757
+1694944429623,543,Gennerate Token Payment,200,,Payment Cash Card - Scan To Pay 5-1,text,true,,1019,710,1,1,https://api-integration3.kardsys.com/visikard/api/transaction-request-token/generate-token,,542,UTF-8,1,0,chishiki,0,0
+1694944430167,1740,Scan To Pay,200,,Payment Cash Card - Scan To Pay 5-1,text,false,The path $['result'] is null,1044,1162,1,1,https://api-integration3.kardsys.com/visikard/api/pos/scan/payment/5cadbb5c-a928-483f-a3b4-b6a7b90453e0,,1739,UTF-8,1,1,chishiki,0,0
+1694944431910,1,Debug Sampler,200,OK,Thread Group 6-1,text,true,,1031,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0

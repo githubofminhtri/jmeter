@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1694944152565,2,Clear data,200,OK,Clear data POS Token 1-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944152571,1424,Login POS,200,,Login POS Thread - Get Token - Device ID 2-1,text,true,,2996,579,1,1,https://api-integration3.kardsys.com/visikard/25/accounts/login/pos,,1424,UTF-8,1,0,chishiki,0,911
+1694944154009,2,Clear data,200,OK,Clear data signin 3-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944154019,1613,Signin,200,,Signin - Get info users 4-1,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1613,UTF-8,1,0,chishiki,0,896
+1694944155635,601,Get Card Token,200,,Signin - Get info users 4-1,text,true,,1994,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,601,ISO-8859-1,1,0,chishiki,0,0
+1694944156237,7,Save User Data,200,OK,Signin - Get info users 4-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944156249,1433,Get QR code Sand Dollar Card,200,,Payment Cash Card - Scan To Pay 5-1,text,true,,854,895,1,1,https://api-integration3.kardsys.com/visipay/api/v2/getKeyQRCode,,1433,ISO-8859-1,1,0,chishiki,0,920
+1694944157684,510,Gennerate Token Payment,200,,Payment Cash Card - Scan To Pay 5-1,text,true,,1019,710,1,1,https://api-integration3.kardsys.com/visikard/api/transaction-request-token/generate-token,,510,UTF-8,1,0,chishiki,0,0
+1694944158195,3772,Scan To Pay,200,,Payment Cash Card - Scan To Pay 5-1,text,true,,2071,1162,1,1,https://api-integration3.kardsys.com/visikard/api/pos/scan/payment/5f8004b1-13de-424e-a627-e51d1408070c,,3771,UTF-8,1,0,chishiki,0,0
+1694944161970,0,Debug Sampler,200,OK,Thread Group 6-1,text,true,,1051,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0

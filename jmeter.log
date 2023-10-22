@@ -1,0 +1,1543 @@
+2023-09-17 12:43:29,620 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-09-17 12:43:29,626 INFO o.a.j.JMeter: Loading user properties from: /home/chishiki/Downloads/apache-jmeter-5.6.2/bin/user.properties
+2023-09-17 12:43:29,626 INFO o.a.j.JMeter: Loading system properties from: /home/chishiki/Downloads/apache-jmeter-5.6.2/bin/system.properties
+2023-09-17 12:43:29,629 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-09-17 12:43:29,629 INFO o.a.j.JMeter: Version 5.6.2
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: java.version=1.8.0_382
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: os.name=Linux
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: os.arch=amd64
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: os.version=6.2.0-32-generic
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: java.awt.headless=null
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-09-17 12:43:29,630 INFO o.a.j.JMeter: Available Processors =16
+2023-09-17 12:43:29,632 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-09-17 12:43:29,632 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-09-17 12:43:29,632 INFO o.a.j.JMeter: JMeterHome=/home/chishiki/Downloads/apache-jmeter-5.6.2
+2023-09-17 12:43:29,632 INFO o.a.j.JMeter: user.dir  =/home/chishiki/Desktop/saveFile1
+2023-09-17 12:43:29,632 INFO o.a.j.JMeter: PWD       =/home/chishiki/Desktop/saveFile1
+2023-09-17 12:43:29,633 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: chishiki FullName: chishiki
+2023-09-17 12:43:29,640 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2023-09-17 12:43:29,748 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.SolarizedDarkTheme
+2023-09-17 12:43:30,338 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:30,400 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:30,472 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:30,473 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:30,533 INFO o.j.r.JARSourceHTTP: Found cached repo
+2023-09-17 12:43:30,740 INFO o.j.r.PluginManager: Plugins Status: [jpgc-dummy=0.4, jpgc-plugins-manager=1.10, jmeter-core=5.6.2, jmeter-ftp=5.6.2, jmeter-http=5.6.2, jmeter-jdbc=5.6.2, jmeter-jms=5.6.2, jmeter-junit=5.6.2, jmeter-java=5.6.2, jmeter-ldap=5.6.2, jmeter-mail=5.6.2, jmeter-mongodb=5.6.2, jmeter-native=5.6.2, jmeter-tcp=5.6.2, jmeter-components=5.6.2]
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-09-17 12:43:54,858 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-09-17 12:43:54,898 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-09-17 12:43:54,898 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-09-17 12:43:54,898 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-09-17 12:43:54,898 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-09-17 12:43:54,988 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:54,989 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:55,011 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:43:55,012 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:55:42,914 INFO o.a.j.s.FileServer: Default base='/home/chishiki/Desktop/saveFile1'
+2023-09-17 12:55:42,915 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card'
+2023-09-17 12:55:42,995 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-09-17 12:55:43,001 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-09-17 12:55:43,002 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-09-17 12:55:43,050 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 12:55:43,050 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 12:55:43,051 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 12:55:43,051 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-09-17 12:55:43,051 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-09-17 12:55:43,213 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:55:43,216 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 12:55:43,241 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 12:55:43,339 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-09-17 12:55:43,339 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 12:55:43,339 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:55:43,339 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:55:43,342 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 12:55:43,343 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 12:55:43,343 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-09-17 12:55:43,348 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-09-17 12:55:43,348 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-09-17 12:55:43,349 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 12:55:43,349 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 12:56:22,303 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 12:56:22,303 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 12:56:22,320 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 12:56:22,404 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-09-17 12:56:22,404 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 12:56:22,404 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:56:22,404 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:56:22,405 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 12:56:22,405 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 12:56:22,406 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-09-17 12:56:22,408 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-09-17 12:56:22,408 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-09-17 12:56:22,408 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 12:56:22,409 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 12:59:03,716 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 12:59:03,717 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 12:59:03,731 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 12:59:03,823 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 12:59:03,823 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 12:59:03,823 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:03,823 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:59:03,828 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 12:59:03,828 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 12:59:03,828 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 12:59:03,829 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:03,828 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 12:59:03,829 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 12:59:03,840 INFO o.a.j.u.BeanShellTestElement: File does not exist: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 12:59:03,840 INFO o.a.j.u.BeanShellTestElement: File created successfully:  Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 12:59:03,840 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 12:59:03,841 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 12:59:03,841 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 12:59:03,841 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 12:59:03,841 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 12:59:03,841 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:03,842 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:59:03,841 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 12:59:03,842 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1941819690
+2023-09-17 12:59:03,843 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 12:59:03,843 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 12:59:03,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 12:59:03,844 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 12:59:03,844 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 12:59:03,842 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File pos-account-not-login-yet-auto-test-1-s2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:119) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6.2]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+2023-09-17 12:59:03,848 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 12:59:03,849 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 12:59:03,849 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 12:59:17,136 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 12:59:17,136 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 12:59:17,148 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 12:59:17,220 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 12:59:17,220 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 12:59:17,220 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:17,220 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:59:17,225 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 12:59:17,225 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 12:59:17,225 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 12:59:17,226 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:17,226 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 12:59:17,226 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 12:59:17,229 INFO o.a.j.u.BeanShellTestElement: File existed: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 12:59:17,229 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 12:59:17,229 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 12:59:17,229 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 12:59:17,231 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 12:59:17,232 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 12:59:17,232 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 12:59:17,232 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 12:59:17,232 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 12:59:17,232 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 12:59:17,232 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 12:59:17,232 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@662675438
+2023-09-17 12:59:17,232 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 12:59:17,232 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File pos-account-not-login-yet-auto-test-1-s2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:119) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6.2]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+2023-09-17 12:59:17,232 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 12:59:17,232 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 12:59:17,233 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 12:59:17,233 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 12:59:17,233 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 12:59:17,234 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:01:01,287 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:01:01,287 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:01:01,296 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:01:01,412 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 13:01:01,412 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 13:01:01,412 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:01,412 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:01:01,415 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:01:01,416 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 13:01:01,416 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 13:01:01,416 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:01,416 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 13:01:01,416 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 13:01:01,420 INFO o.a.j.u.BeanShellTestElement: File does not exist: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:01:01,420 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:01:01,420 INFO o.a.j.u.BeanShellTestElement: File created successfully:  Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:01:01,420 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:01:01,420 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 13:01:01,421 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 13:01:01,421 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1909318468
+2023-09-17 13:01:01,421 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File pos-account-not-login-yet-auto-test-1-s2.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:119) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6.2]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+2023-09-17 13:01:01,421 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:01:01,421 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:01:01,421 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:01,421 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:01:01,421 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:01:01,422 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:01:01,422 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:01:01,422 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:01:01,422 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:01:01,422 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:01:01,423 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:01:01,423 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:01:43,314 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:01:43,314 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:01:43,323 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:01:43,411 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 13:01:43,411 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 13:01:43,411 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:43,411 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:01:43,414 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:01:43,414 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 13:01:43,414 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 13:01:43,414 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:43,414 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 13:01:43,414 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 13:01:43,417 INFO o.a.j.u.BeanShellTestElement: File existed: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:01:43,417 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:01:43,417 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 13:01:43,417 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 13:01:43,420 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:01:43,420 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:01:43,420 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:01:43,420 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:01:43,420 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:01:43,420 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:01:43,420 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@440713289
+2023-09-17 13:01:43,420 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:01:43,420 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:01:43,420 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:01:43,421 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:01:43,421 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:01:43,433 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = chishiki
+2023-09-17 13:01:43,436 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-09-17 13:01:43,558 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2023-09-17 13:01:43,559 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2023-09-17 13:01:43,559 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2023-09-17 13:01:43,810 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2023-09-17 13:01:43,811 INFO o.a.j.u.SSLManager: KeyStore created OK
+2023-09-17 13:01:43,812 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2023-09-17 13:01:48,190 INFO o.a.j.u.BeanShellTestElement: File successfully written to: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:01:48,190 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:01:48,190 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:01:48,191 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:01:48,191 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@440713289
+2023-09-17 13:01:48,193 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:04:54,405 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:04:54,405 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:04:54,421 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:04:54,534 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data Signin User Token
+2023-09-17 13:04:54,534 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin User Token.
+2023-09-17 13:04:54,534 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:04:54,534 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:04:54,538 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:04:54,538 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Signin - Get info users
+2023-09-17 13:04:54,538 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 13:04:54,538 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:04:54,538 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin User Token 1-1
+2023-09-17 13:04:54,538 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 13:04:54,541 INFO o.a.j.u.BeanShellTestElement: File does not exist: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:04:54,541 INFO o.a.j.u.BeanShellTestElement: File created successfully:  Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:04:54,542 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin User Token 1-1
+2023-09-17 13:04:54,542 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin User Token 1-1
+2023-09-17 13:04:54,545 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:04:54,545 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:04:54,545 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:04:54,545 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-1
+2023-09-17 13:04:54,545 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:04:54,546 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:04:54,546 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:04:54,546 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:04:54,546 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:04:54,546 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:04:54,547 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:04:54,547 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:05:01,304 INFO o.a.j.u.BeanShellTestElement: File successfully written to: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:05:01,305 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-1
+2023-09-17 13:05:01,305 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-1
+2023-09-17 13:05:01,305 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:05:01,306 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:05:01,308 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:06:07,832 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:06:07,832 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:06:07,841 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:06:07,938 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data Signin User Token
+2023-09-17 13:06:07,938 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin User Token.
+2023-09-17 13:06:07,938 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:06:07,938 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:06:07,942 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:06:07,942 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin User Token to finish before starting next group
+2023-09-17 13:06:07,942 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin User Token 1-1
+2023-09-17 13:06:07,945 INFO o.a.j.u.BeanShellTestElement: File existed: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:06:07,945 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:06:07,946 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin User Token 1-1
+2023-09-17 13:06:07,946 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin User Token 1-1
+2023-09-17 13:06:07,946 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Signin - Get info users
+2023-09-17 13:06:07,946 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 13:06:07,946 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:06:07,946 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 13:06:07,949 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:06:07,949 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 13:06:07,949 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-1
+2023-09-17 13:06:07,950 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:06:12,886 INFO o.a.j.u.BeanShellTestElement: File successfully written to: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:06:12,887 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-1
+2023-09-17 13:06:12,887 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-1
+2023-09-17 13:06:12,888 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:06:12,889 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:06:12,889 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:06:12,889 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:06:12,890 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:06:12,890 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:06:12,890 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:06:12,890 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:06:12,890 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:06:12,890 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:06:12,891 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:06:12,892 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:08:10,936 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:08:10,936 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:08:10,948 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:08:11,045 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Payment Cash Card - Scan To Pay
+2023-09-17 13:08:11,045 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 13:08:11,045 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:08:11,045 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=10 delayedStart=false
+2023-09-17 13:08:11,046 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:08:11,046 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 13:08:11,046 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:08:11,047 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:08:11,047 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 13:08:11,047 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 13:08:11,047 INFO o.a.j.s.FileServer: Stored: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@372684099
+2023-09-17 13:08:25,806 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:08:25,807 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:08:25,808 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 13:08:25,808 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:08:25,808 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:08:25,808 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:08:25,809 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:08:25,809 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:08:25,809 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 13:08:25,810 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 13:08:25,810 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 13:08:25,810 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:08:25,810 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 13:08:25,811 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 13:08:25,811 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@372684099
+2023-09-17 13:08:25,812 INFO o.a.j.s.FileServer: Close: Pay-Function/Pay-Cash-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:08:25,813 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:40:58,578 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:40:58,580 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:40:58,587 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:40:58,589 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:41:24,055 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card'
+2023-09-17 13:42:36,722 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:36,723 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:36,732 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:36,734 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:56,930 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:56,932 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:56,941 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:42:56,942 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 13:47:38,709 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:47:38,709 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:47:38,721 INFO o.a.j.r.ResultCollector: Folder at /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataReports was created
+2023-09-17 13:47:38,724 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:47:38,869 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 13:47:38,870 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 13:47:38,870 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:47:38,870 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:47:38,872 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:47:38,873 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 13:47:38,873 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 13:47:38,875 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:47:38,876 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:47:38,877 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 13:47:38,877 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 13:47:38,877 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 13:47:38,877 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 13:47:38,877 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:47:38,877 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 13:47:38,880 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:47:38,880 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 13:47:38,880 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:47:38,881 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@2135225020
+2023-09-17 13:47:43,569 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 13:47:43,571 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:47:43,571 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 13:47:43,572 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:47:43,572 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:47:43,572 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:47:43,572 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:47:43,572 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:47:43,572 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:47:43,573 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:47:43,574 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:47:43,574 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:47:43,574 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:47:43,574 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@2135225020
+2023-09-17 13:47:43,576 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:51:41,598 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:51:41,599 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:51:41,612 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:51:41,721 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data signin
+2023-09-17 13:51:41,721 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data signin.
+2023-09-17 13:51:41,721 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:51:41,721 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:51:41,725 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:51:41,725 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data signin to finish before starting next group
+2023-09-17 13:51:41,725 INFO o.a.j.t.JMeterThread: Thread started: Clear data signin 1-1
+2023-09-17 13:51:41,728 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:51:41,728 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:51:41,729 INFO o.a.j.t.JMeterThread: Thread is done: Clear data signin 1-1
+2023-09-17 13:51:41,729 INFO o.a.j.t.JMeterThread: Thread finished: Clear data signin 1-1
+2023-09-17 13:51:41,729 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Signin - Get info users
+2023-09-17 13:51:41,729 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 13:51:41,729 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:51:41,729 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 13:51:41,733 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:51:41,733 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 13:51:41,733 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-1
+2023-09-17 13:51:41,734 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:51:46,799 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:51:46,799 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-1
+2023-09-17 13:51:46,799 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-1
+2023-09-17 13:51:46,800 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:51:46,800 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:51:46,800 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:51:46,800 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:51:46,801 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:51:46,801 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:51:46,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:51:46,802 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:51:46,802 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:51:46,802 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:51:46,802 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:51:46,804 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:52:17,214 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:52:17,214 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:52:17,225 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:52:17,320 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data signin
+2023-09-17 13:52:17,320 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data signin.
+2023-09-17 13:52:17,320 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:52:17,320 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:52:17,324 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:52:17,324 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data signin to finish before starting next group
+2023-09-17 13:52:17,324 INFO o.a.j.t.JMeterThread: Thread started: Clear data signin 1-1
+2023-09-17 13:52:17,328 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:52:17,328 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:52:17,329 INFO o.a.j.t.JMeterThread: Thread is done: Clear data signin 1-1
+2023-09-17 13:52:17,329 INFO o.a.j.t.JMeterThread: Thread finished: Clear data signin 1-1
+2023-09-17 13:52:17,329 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Signin - Get info users
+2023-09-17 13:52:17,329 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 13:52:17,329 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:52:17,329 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 13:52:17,333 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:52:17,333 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 13:52:17,333 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-1
+2023-09-17 13:52:17,334 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:52:22,545 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:52:22,546 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-1
+2023-09-17 13:52:22,547 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-1
+2023-09-17 13:52:22,548 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 13:52:22,548 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:52:22,548 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:52:22,548 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:52:22,548 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 13:52:22,549 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:52:22,549 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 13:52:22,550 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 13:52:22,550 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 13:52:22,550 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:52:22,550 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 13:52:22,552 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 13:54:10,738 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 13:54:10,738 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 13:54:10,750 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 13:54:10,864 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Payment Cash Card - Scan To Pay
+2023-09-17 13:54:10,864 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 13:54:10,864 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:54:10,864 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=50 delayedStart=false
+2023-09-17 13:54:10,865 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 13:54:10,865 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 13:54:10,866 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:54:10,866 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:54:10,866 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 13:54:10,867 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 13:54:10,867 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@1637613191
+2023-09-17 13:54:20,878 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:54:20,878 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 13:54:20,879 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 13:54:20,879 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 13:54:20,879 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 13:54:20,879 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 13:54:20,879 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 13:54:20,879 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 13:54:20,880 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 13:54:20,881 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 13:54:20,881 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 13:54:20,881 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 13:54:20,881 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@1637613191
+2023-09-17 13:54:20,882 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 13:54:20,883 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 13:54:20,884 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 13:54:20,886 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:00:51,009 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:00:51,010 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:00:51,024 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:00:51,165 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Payment Cash Card - Scan To Pay
+2023-09-17 14:00:51,165 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 14:00:51,165 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:00:51,165 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=50 delayedStart=false
+2023-09-17 14:00:51,166 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:00:51,166 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 14:00:51,166 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 14:00:51,167 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:00:51,167 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 14:00:51,168 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 14:00:51,168 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@69803860
+2023-09-17 14:00:56,047 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 14:00:56,047 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 1-1
+2023-09-17 14:00:56,048 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 14:00:56,048 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:00:56,048 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:00:56,049 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:00:56,049 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 14:00:56,049 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:00:56,049 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 14:00:56,050 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 14:00:56,050 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 14:00:56,051 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:00:56,051 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@69803860
+2023-09-17 14:00:56,051 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 14:00:56,052 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 14:00:56,052 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:00:56,053 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:01:17,490 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:01:17,490 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:01:17,503 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:01:17,603 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 14:01:17,604 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 14:01:17,604 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:17,604 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:01:17,607 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:01:17,607 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 14:01:17,607 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 14:01:17,609 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:01:17,609 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:01:17,610 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 14:01:17,610 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 14:01:17,610 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 14:01:17,610 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 14:01:17,610 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:17,610 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 14:01:17,614 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 14:01:17,614 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 14:01:17,614 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:01:17,614 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1666450540
+2023-09-17 14:01:20,012 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:01:20,013 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:01:20,013 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:01:20,014 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Clear data signin
+2023-09-17 14:01:20,014 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data signin.
+2023-09-17 14:01:20,014 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:20,014 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:01:20,021 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 14:01:20,021 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data signin to finish before starting next group
+2023-09-17 14:01:20,021 INFO o.a.j.t.JMeterThread: Thread started: Clear data signin 3-1
+2023-09-17 14:01:20,024 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:01:20,025 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:01:20,025 INFO o.a.j.t.JMeterThread: Thread is done: Clear data signin 3-1
+2023-09-17 14:01:20,025 INFO o.a.j.t.JMeterThread: Thread finished: Clear data signin 3-1
+2023-09-17 14:01:20,025 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Signin - Get info users
+2023-09-17 14:01:20,025 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 14:01:20,025 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:20,025 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 14:01:20,029 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 14:01:20,029 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 14:01:20,029 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 4-1
+2023-09-17 14:01:20,030 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 14:01:22,470 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:01:22,470 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 4-1
+2023-09-17 14:01:22,470 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 4-1
+2023-09-17 14:01:22,471 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Payment Cash Card - Scan To Pay
+2023-09-17 14:01:22,471 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 14:01:22,471 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:22,472 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=50 delayedStart=false
+2023-09-17 14:01:22,472 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2023-09-17 14:01:22,472 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 14:01:22,473 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 14:01:22,474 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:01:22,474 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 14:01:22,474 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 14:01:22,474 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@538578831
+2023-09-17 14:01:33,726 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 14:01:33,726 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 14:01:33,727 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group
+2023-09-17 14:01:33,728 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:01:33,728 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:01:33,728 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:01:33,729 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2023-09-17 14:01:33,729 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:01:33,729 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 6-1
+2023-09-17 14:01:33,730 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 6-1
+2023-09-17 14:01:33,730 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 6-1
+2023-09-17 14:01:33,730 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:01:33,731 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-hotfix-signed-up.csv
+2023-09-17 14:01:33,732 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@538578831
+2023-09-17 14:01:33,732 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 14:01:33,732 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1666450540
+2023-09-17 14:01:33,732 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 14:01:33,732 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-hotfix-signed-in.csv
+2023-09-17 14:01:33,733 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:02:17,436 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:02:17,437 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:02:17,444 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:02:17,445 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:03:28,006 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:03:28,008 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:03:28,015 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:03:28,016 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:05:39,784 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:05:39,785 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:05:39,791 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:05:39,792 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:06:22,710 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card'
+2023-09-17 14:06:22,724 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:06:22,725 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:06:22,741 INFO o.a.j.r.ResultCollector: Folder at /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataReports was created
+2023-09-17 14:06:22,767 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:06:22,940 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-09-17 14:06:22,940 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:06:22,940 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:06:22,940 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:06:22,941 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:06:22,941 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:06:22,941 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-09-17 14:06:22,942 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-09-17 14:06:22,942 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-09-17 14:06:22,942 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:06:22,946 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:07:59,313 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:07:59,313 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:07:59,329 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:07:59,449 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-09-17 14:07:59,450 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:07:59,450 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:07:59,450 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:07:59,450 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:07:59,450 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:07:59,450 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-09-17 14:07:59,451 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-09-17 14:07:59,451 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-09-17 14:07:59,451 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:07:59,452 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:08:30,924 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/pay-Sand-Dollar-Card.jmx
+2023-09-17 14:08:30,924 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card'
+2023-09-17 14:08:30,925 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/pay-Sand-Dollar-Card.jmx
+2023-09-17 14:08:31,112 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:31,113 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:31,118 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:31,119 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:31,164 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card'
+2023-09-17 14:08:44,576 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/pay-Gift-Card.jmx
+2023-09-17 14:08:44,576 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card'
+2023-09-17 14:08:44,576 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/pay-Gift-Card.jmx
+2023-09-17 14:08:44,627 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:44,628 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:44,634 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:44,635 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 14:08:44,695 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card'
+2023-09-17 14:09:45,047 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:09:45,048 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:09:45,059 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:09:45,195 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 14:09:45,195 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 14:09:45,195 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:09:45,195 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:09:45,199 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:09:45,199 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 14:09:45,199 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 14:09:45,199 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:09:45,199 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 14:09:45,199 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 14:09:45,202 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:09:45,202 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:09:45,202 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 14:09:45,202 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 14:09:45,204 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 14:09:45,204 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 14:09:45,204 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:09:45,204 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:09:45,204 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:09:45,204 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:09:45,204 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 14:09:45,204 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:09:45,204 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1915608033
+2023-09-17 14:09:45,204 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 14:09:45,205 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 14:09:45,205 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 14:09:48,535 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv
+2023-09-17 14:09:48,535 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:09:48,535 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 14:09:48,535 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:09:48,535 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-auto-test-1-s2.csv@1915608033
+2023-09-17 14:09:48,536 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:10:44,386 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:10:44,386 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:10:44,399 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:10:44,517 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Redem gift card
+2023-09-17 14:10:44,517 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 14:10:44,517 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:10:44,517 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 14:10:44,518 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:10:44,518 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 14:10:44,519 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 1-1
+2023-09-17 14:10:44,519 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv@2031463209
+2023-09-17 14:10:44,519 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@2031463209
+2023-09-17 14:10:45,974 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 1-1
+2023-09-17 14:10:45,974 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 1-1
+2023-09-17 14:10:45,975 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 14:10:45,975 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:10:45,975 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:10:45,975 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:10:45,976 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 14:10:45,976 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:10:45,976 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 14:10:45,977 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 14:10:45,977 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 14:10:45,977 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:10:45,977 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv@2031463209
+2023-09-17 14:10:45,978 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@2031463209
+2023-09-17 14:10:45,980 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 14:11:48,218 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 14:11:48,218 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 14:11:48,230 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 14:11:48,366 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Redem gift card
+2023-09-17 14:11:48,366 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 14:11:48,366 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:11:48,366 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 14:11:48,366 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 14:11:48,366 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 14:11:48,366 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 1-1
+2023-09-17 14:11:48,367 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv@830912984
+2023-09-17 14:11:48,367 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@830912984
+2023-09-17 14:11:53,366 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 1-1
+2023-09-17 14:11:53,366 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 1-1
+2023-09-17 14:11:53,367 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 14:11:53,367 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 14:11:53,367 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 14:11:53,368 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 14:11:53,368 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 14:11:53,368 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 14:11:53,369 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 14:11:53,370 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 14:11:53,370 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 14:11:53,371 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 14:11:53,371 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-auto-test-1-s2.csv@830912984
+2023-09-17 14:11:53,372 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeS2.csv@830912984
+2023-09-17 14:11:53,382 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:25:23,556 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:25:23,556 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:25:23,571 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:25:23,760 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:25:23,760 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:25:23,760 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:25:23,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:25:23,763 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:25:23,763 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:25:23,763 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:25:23,765 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:25:23,765 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:25:23,765 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:25:23,765 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:25:23,765 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:25:23,766 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:25:23,766 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:25:23,766 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:25:23,769 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:25:23,769 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:25:23,770 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:25:23,770 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1248583042
+2023-09-17 16:25:24,978 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:25:24,979 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:25:24,979 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:25:24,980 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Redem gift card
+2023-09-17 16:25:24,980 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 16:25:24,980 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:25:24,980 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:25:24,981 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:25:24,981 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 16:25:24,981 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 3-1
+2023-09-17 16:25:24,981 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1415199208
+2023-09-17 16:25:24,982 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1415199208
+2023-09-17 16:25:26,130 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 3-1
+2023-09-17 16:25:26,130 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 3-1
+2023-09-17 16:25:26,131 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group
+2023-09-17 16:25:26,131 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:25:26,131 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:25:26,131 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:25:26,131 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:25:26,131 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:25:26,131 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 4-1
+2023-09-17 16:25:26,132 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 4-1
+2023-09-17 16:25:26,132 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 4-1
+2023-09-17 16:25:26,132 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:25:26,132 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1248583042
+2023-09-17 16:25:26,132 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1415199208
+2023-09-17 16:25:26,132 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1415199208
+2023-09-17 16:25:26,140 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:26:49,459 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:26:49,459 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:26:49,475 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:26:49,610 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:26:49,610 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:26:49,610 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:26:49,610 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:26:49,613 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:26:49,613 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:26:49,613 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:26:49,615 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:26:49,615 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:26:49,615 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:26:49,615 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:26:49,615 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:26:49,615 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:26:49,615 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:26:49,615 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:26:49,618 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:26:49,618 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:26:49,618 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:26:49,618 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1779863911
+2023-09-17 16:26:50,907 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:26:50,907 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:26:50,907 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:26:50,908 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Redem gift card
+2023-09-17 16:26:50,908 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 16:26:50,908 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:26:50,908 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:26:50,909 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:26:50,909 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 16:26:50,909 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 3-1
+2023-09-17 16:26:50,909 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1185717548
+2023-09-17 16:26:50,909 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1185717548
+2023-09-17 16:26:52,116 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 3-1
+2023-09-17 16:26:52,117 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 3-1
+2023-09-17 16:26:52,118 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group
+2023-09-17 16:26:52,118 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:26:52,118 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:26:52,118 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:26:52,119 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:26:52,119 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:26:52,119 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 4-1
+2023-09-17 16:26:52,120 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 4-1
+2023-09-17 16:26:52,120 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 4-1
+2023-09-17 16:26:52,120 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:26:52,120 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1779863911
+2023-09-17 16:26:52,121 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1185717548
+2023-09-17 16:26:52,122 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1185717548
+2023-09-17 16:26:52,123 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:40:35,459 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:40:35,459 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:40:35,471 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:40:35,605 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:40:35,605 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:40:35,605 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:40:35,605 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:40:35,608 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:40:35,608 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:40:35,608 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:40:35,609 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:40:35,609 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:40:35,609 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:40:35,609 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:40:35,610 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:40:35,610 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:40:35,610 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:40:35,610 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:40:35,613 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:40:35,613 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:40:35,613 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:40:35,613 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@38624434
+2023-09-17 16:40:36,990 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:40:36,990 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:40:36,990 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:40:36,991 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Redem gift card
+2023-09-17 16:40:36,991 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 16:40:36,991 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:40:36,991 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:40:36,992 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:40:36,992 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 16:40:36,992 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 3-1
+2023-09-17 16:40:36,993 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1809390782
+2023-09-17 16:40:36,993 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1809390782
+2023-09-17 16:40:39,323 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 3-1
+2023-09-17 16:40:39,323 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 3-1
+2023-09-17 16:40:39,324 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group
+2023-09-17 16:40:39,324 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:40:39,324 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:40:39,324 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:40:39,325 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:40:39,325 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:40:39,325 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 4-1
+2023-09-17 16:40:39,326 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 4-1
+2023-09-17 16:40:39,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 4-1
+2023-09-17 16:40:39,326 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:40:39,326 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@1809390782
+2023-09-17 16:40:39,328 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@38624434
+2023-09-17 16:40:39,328 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@1809390782
+2023-09-17 16:40:39,330 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:43:26,408 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:43:26,408 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:43:26,447 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:43:26,560 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:43:26,560 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:43:26,560 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:26,560 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:43:26,563 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:43:26,563 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:43:26,563 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:43:26,565 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:26,565 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:26,565 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:43:26,565 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:43:26,566 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:43:26,566 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:43:26,566 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:26,566 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:43:26,569 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:43:26,569 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:43:26,569 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:26,569 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@149248839
+2023-09-17 16:43:27,986 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:27,988 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:27,988 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:27,989 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Redem gift card
+2023-09-17 16:43:27,989 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 16:43:27,989 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:27,989 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:43:27,990 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:43:27,990 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 16:43:27,990 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 3-1
+2023-09-17 16:43:27,991 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@194456392
+2023-09-17 16:43:27,991 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@194456392
+2023-09-17 16:43:32,290 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 3-1
+2023-09-17 16:43:32,290 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 3-1
+2023-09-17 16:43:32,291 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group
+2023-09-17 16:43:32,291 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:43:32,291 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:32,292 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:43:32,292 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:43:32,292 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:43:32,292 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 4-1
+2023-09-17 16:43:32,293 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 4-1
+2023-09-17 16:43:32,293 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 4-1
+2023-09-17 16:43:32,294 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:43:32,294 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@194456392
+2023-09-17 16:43:32,294 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@194456392
+2023-09-17 16:43:32,295 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@149248839
+2023-09-17 16:43:32,296 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:43:43,797 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:43:43,797 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:43:43,815 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:43:43,948 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:43:43,948 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:43:43,948 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:43,948 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:43:43,951 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:43:43,951 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:43:43,951 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:43:43,953 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:43,953 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:43,954 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:43:43,954 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:43:43,954 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:43:43,954 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:43:43,954 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:43,954 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:43:43,957 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:43:43,957 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:43:43,957 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:43,957 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1764730442
+2023-09-17 16:43:45,356 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv
+2023-09-17 16:43:45,356 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:45,357 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:43:45,357 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Redem gift card
+2023-09-17 16:43:45,357 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Redem gift card.
+2023-09-17 16:43:45,357 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:45,357 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:43:45,358 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:43:45,358 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Redem gift card to finish before starting next group
+2023-09-17 16:43:45,358 INFO o.a.j.t.JMeterThread: Thread started: Redem gift card 3-1
+2023-09-17 16:43:45,359 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@408628772
+2023-09-17 16:43:45,359 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@408628772
+2023-09-17 16:43:48,358 INFO o.a.j.t.JMeterThread: Thread is done: Redem gift card 3-1
+2023-09-17 16:43:48,358 INFO o.a.j.t.JMeterThread: Thread finished: Redem gift card 3-1
+2023-09-17 16:43:48,359 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Thread Group
+2023-09-17 16:43:48,359 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:43:48,359 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:43:48,360 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:43:48,360 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:43:48,360 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:43:48,361 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 4-1
+2023-09-17 16:43:48,362 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 4-1
+2023-09-17 16:43:48,362 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 4-1
+2023-09-17 16:43:48,362 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:43:48,362 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/pos-account-not-login-yet-I3.csv@1764730442
+2023-09-17 16:43:48,363 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataInput/giftCardQRCodeI3.csv@408628772
+2023-09-17 16:43:48,364 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Gift-Card/dataOutput/pos-account-loggedin-I3.csv@408628772
+2023-09-17 16:43:48,366 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:45:00,452 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/pay-Sand-Dollar-Card.jmx
+2023-09-17 16:45:00,452 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card'
+2023-09-17 16:45:00,452 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/pay-Sand-Dollar-Card.jmx
+2023-09-17 16:45:00,555 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:45:00,557 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:45:00,563 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:45:00,564 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:45:00,614 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card'
+2023-09-17 16:49:12,406 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:49:12,406 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:49:12,421 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:49:12,561 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data POS Token
+2023-09-17 16:49:12,561 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data POS Token.
+2023-09-17 16:49:12,561 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:12,561 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:49:12,565 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:49:12,565 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data POS Token to finish before starting next group
+2023-09-17 16:49:12,565 INFO o.a.j.t.JMeterThread: Thread started: Clear data POS Token 1-1
+2023-09-17 16:49:12,566 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:49:12,566 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:49:12,567 INFO o.a.j.t.JMeterThread: Thread is done: Clear data POS Token 1-1
+2023-09-17 16:49:12,567 INFO o.a.j.t.JMeterThread: Thread finished: Clear data POS Token 1-1
+2023-09-17 16:49:12,567 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:49:12,567 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:49:12,567 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:12,567 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:49:12,570 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:49:12,570 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:49:12,570 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:49:12,570 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-I3.csv@1287452628
+2023-09-17 16:49:14,002 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:49:14,002 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:49:14,002 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:49:14,003 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Clear data signin
+2023-09-17 16:49:14,003 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data signin.
+2023-09-17 16:49:14,003 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:14,003 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:49:14,008 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:49:14,008 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data signin to finish before starting next group
+2023-09-17 16:49:14,008 INFO o.a.j.t.JMeterThread: Thread started: Clear data signin 3-1
+2023-09-17 16:49:14,011 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:49:14,011 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:49:14,011 INFO o.a.j.t.JMeterThread: Thread is done: Clear data signin 3-1
+2023-09-17 16:49:14,011 INFO o.a.j.t.JMeterThread: Thread finished: Clear data signin 3-1
+2023-09-17 16:49:14,011 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Signin - Get info users
+2023-09-17 16:49:14,011 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 16:49:14,011 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:14,011 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 16:49:14,017 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:49:14,017 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 16:49:14,018 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 4-1
+2023-09-17 16:49:14,018 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:49:16,244 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:49:16,244 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 4-1
+2023-09-17 16:49:16,244 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 4-1
+2023-09-17 16:49:16,245 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Payment Cash Card - Scan To Pay
+2023-09-17 16:49:16,245 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 16:49:16,245 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:16,245 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=50 delayedStart=false
+2023-09-17 16:49:16,246 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2023-09-17 16:49:16,247 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 16:49:16,247 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:49:16,247 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:49:16,248 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 16:49:16,248 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 16:49:16,248 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv@127102836
+2023-09-17 16:49:21,967 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:49:21,967 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:49:21,968 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group
+2023-09-17 16:49:21,968 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:49:21,968 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:49:21,968 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:49:21,969 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2023-09-17 16:49:21,969 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:49:21,969 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 6-1
+2023-09-17 16:49:21,970 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 6-1
+2023-09-17 16:49:21,970 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 6-1
+2023-09-17 16:49:21,970 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:49:21,971 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:49:21,971 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/pos-account-not-login-yet-I3.csv@1287452628
+2023-09-17 16:49:21,972 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/orderid.csv
+2023-09-17 16:49:21,972 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:49:21,972 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataOutput/pos-account-loggedin-i3.csv@127102836
+2023-09-17 16:49:21,972 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Sand-Dollar-Card/dataInput/sessionid.csv
+2023-09-17 16:49:21,973 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:50:50,632 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/pay-Cash-Card.jmx
+2023-09-17 16:50:50,632 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card'
+2023-09-17 16:50:50,632 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/pay-Cash-Card.jmx
+2023-09-17 16:50:50,686 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:50:50,687 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:50:50,691 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:50:50,692 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 16:50:50,827 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card'
+2023-09-17 16:53:44,857 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:53:44,858 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:53:44,869 INFO o.a.j.r.ResultCollector: Folder at /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataReports was created
+2023-09-17 16:53:44,870 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:53:45,028 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data Signin POS Token
+2023-09-17 16:53:45,028 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin POS Token.
+2023-09-17 16:53:45,028 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:45,028 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:53:45,030 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:53:45,030 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin POS Token to finish before starting next group
+2023-09-17 16:53:45,031 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin POS Token 1-1
+2023-09-17 16:53:45,032 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:53:45,032 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:53:45,032 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin POS Token 1-1
+2023-09-17 16:53:45,032 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin POS Token 1-1
+2023-09-17 16:53:45,033 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 16:53:45,033 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 16:53:45,033 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:45,033 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 16:53:45,035 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:53:45,035 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 16:53:45,035 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:53:45,036 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv@1310137633
+2023-09-17 16:53:46,379 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 16:53:46,380 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:53:46,380 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 16:53:46,380 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Clear data Signin User Token
+2023-09-17 16:53:46,380 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin User Token.
+2023-09-17 16:53:46,381 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:46,381 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:53:46,385 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:53:46,385 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin User Token to finish before starting next group
+2023-09-17 16:53:46,386 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin User Token 3-1
+2023-09-17 16:53:46,388 INFO o.a.j.u.BeanShellTestElement: File does not exist: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:53:46,388 INFO o.a.j.u.BeanShellTestElement: File created successfully:  /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:53:46,389 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin User Token 3-1
+2023-09-17 16:53:46,389 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin User Token 3-1
+2023-09-17 16:53:46,389 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Signin - Get info users
+2023-09-17 16:53:46,389 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 16:53:46,389 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:46,389 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 16:53:46,392 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 16:53:46,392 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 16:53:46,392 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 4-1
+2023-09-17 16:53:46,392 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:53:48,434 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:53:48,435 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 4-1
+2023-09-17 16:53:48,435 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 4-1
+2023-09-17 16:53:48,436 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Payment Cash Card - Scan To Pay
+2023-09-17 16:53:48,436 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 16:53:48,436 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:48,436 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=10 delayedStart=false
+2023-09-17 16:53:48,437 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2023-09-17 16:53:48,437 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 16:53:48,438 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:53:48,438 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:53:48,439 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 16:53:48,439 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 16:53:48,439 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv@1726687576
+2023-09-17 16:53:51,907 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:53:51,907 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 16:53:51,908 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group
+2023-09-17 16:53:51,908 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:53:51,908 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:53:51,908 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:53:51,909 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2023-09-17 16:53:51,909 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:53:51,910 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 6-1
+2023-09-17 16:53:51,911 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 6-1
+2023-09-17 16:53:51,911 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 6-1
+2023-09-17 16:53:51,911 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:53:51,911 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv@1726687576
+2023-09-17 16:53:51,912 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 16:53:51,913 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv@1310137633
+2023-09-17 16:53:51,913 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:53:51,913 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 16:53:51,913 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:53:51,914 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 16:58:14,610 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 16:58:14,610 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 16:58:14,623 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 16:58:14,760 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data Signin User Token
+2023-09-17 16:58:14,760 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin User Token.
+2023-09-17 16:58:14,760 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:58:14,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:58:14,764 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 16:58:14,764 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin User Token to finish before starting next group
+2023-09-17 16:58:14,764 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin User Token 1-1
+2023-09-17 16:58:14,765 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:14,765 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:14,766 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin User Token 1-1
+2023-09-17 16:58:14,766 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin User Token 1-1
+2023-09-17 16:58:14,766 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Signin - Get info users
+2023-09-17 16:58:14,766 INFO o.a.j.e.StandardJMeterEngine: Starting 22 threads for group Signin - Get info users.
+2023-09-17 16:58:14,766 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:58:14,766 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=22 ramp-up=60 delayedStart=false
+2023-09-17 16:58:14,769 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-1
+2023-09-17 16:58:14,769 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:58:14,816 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 16:58:14,816 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 16:58:16,818 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:16,818 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-1
+2023-09-17 16:58:16,818 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-1
+2023-09-17 16:58:17,496 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-2
+2023-09-17 16:58:19,464 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:19,465 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-2
+2023-09-17 16:58:19,465 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-2
+2023-09-17 16:58:20,223 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-3
+2023-09-17 16:58:22,038 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:22,039 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-3
+2023-09-17 16:58:22,039 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-3
+2023-09-17 16:58:22,949 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-4
+2023-09-17 16:58:25,011 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:25,012 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-4
+2023-09-17 16:58:25,012 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-4
+2023-09-17 16:58:25,676 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-5
+2023-09-17 16:58:27,663 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:27,664 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-5
+2023-09-17 16:58:27,664 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-5
+2023-09-17 16:58:28,403 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-6
+2023-09-17 16:58:30,533 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:30,534 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-6
+2023-09-17 16:58:30,534 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-6
+2023-09-17 16:58:31,132 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-7
+2023-09-17 16:58:33,194 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:33,195 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-7
+2023-09-17 16:58:33,195 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-7
+2023-09-17 16:58:33,858 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-8
+2023-09-17 16:58:35,957 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:35,958 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-8
+2023-09-17 16:58:35,958 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-8
+2023-09-17 16:58:36,585 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-9
+2023-09-17 16:58:38,567 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:38,568 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-9
+2023-09-17 16:58:38,568 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-9
+2023-09-17 16:58:39,312 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-10
+2023-09-17 16:58:41,477 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:41,477 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-10
+2023-09-17 16:58:41,477 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-10
+2023-09-17 16:58:42,040 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-11
+2023-09-17 16:58:44,252 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:44,252 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-11
+2023-09-17 16:58:44,252 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-11
+2023-09-17 16:58:44,767 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-12
+2023-09-17 16:58:46,727 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:46,728 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-12
+2023-09-17 16:58:46,728 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-12
+2023-09-17 16:58:47,493 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-13
+2023-09-17 16:58:50,219 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-14
+2023-09-17 16:58:50,498 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:50,499 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-13
+2023-09-17 16:58:50,499 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-13
+2023-09-17 16:58:52,138 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:52,138 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-14
+2023-09-17 16:58:52,138 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-14
+2023-09-17 16:58:52,946 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-15
+2023-09-17 16:58:55,003 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:55,004 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-15
+2023-09-17 16:58:55,004 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-15
+2023-09-17 16:58:55,674 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-16
+2023-09-17 16:58:57,565 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:58:57,565 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-16
+2023-09-17 16:58:57,565 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-16
+2023-09-17 16:58:58,400 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-17
+2023-09-17 16:59:00,327 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:00,328 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-17
+2023-09-17 16:59:00,328 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-17
+2023-09-17 16:59:01,127 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-18
+2023-09-17 16:59:03,197 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:03,198 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-18
+2023-09-17 16:59:03,198 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-18
+2023-09-17 16:59:03,855 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-19
+2023-09-17 16:59:06,068 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:06,068 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-19
+2023-09-17 16:59:06,068 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-19
+2023-09-17 16:59:06,583 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-20
+2023-09-17 16:59:08,642 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:08,643 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-20
+2023-09-17 16:59:08,643 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-20
+2023-09-17 16:59:09,309 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-21
+2023-09-17 16:59:11,148 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:11,148 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-21
+2023-09-17 16:59:11,148 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-21
+2023-09-17 16:59:12,035 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 2-22
+2023-09-17 16:59:13,901 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 16:59:13,901 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 2-22
+2023-09-17 16:59:13,901 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 2-22
+2023-09-17 16:59:13,902 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 16:59:13,902 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 16:59:13,902 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 16:59:13,902 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 16:59:13,902 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 16:59:13,902 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 16:59:13,902 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 16:59:13,903 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 16:59:13,903 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 16:59:13,903 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 16:59:13,903 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 16:59:13,904 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:19:55,415 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 17:19:55,415 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 17:19:55,427 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 17:19:55,436 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear data Signin POS Token
+2023-09-17 17:19:55,436 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin POS Token.
+2023-09-17 17:19:55,436 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:19:55,436 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:19:55,439 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 17:19:55,439 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin POS Token to finish before starting next group
+2023-09-17 17:19:55,439 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin POS Token 1-1
+2023-09-17 17:19:55,440 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 17:19:55,441 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 17:19:55,441 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin POS Token 1-1
+2023-09-17 17:19:55,441 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin POS Token 1-1
+2023-09-17 17:19:55,441 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS Thread - Get Token - Device ID
+2023-09-17 17:19:55,441 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS Thread - Get Token - Device ID.
+2023-09-17 17:19:55,441 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:19:55,441 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=5 delayedStart=false
+2023-09-17 17:19:55,444 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 17:19:55,444 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Login POS Thread - Get Token - Device ID to finish before starting next group
+2023-09-17 17:19:55,444 INFO o.a.j.t.JMeterThread: Thread started: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 17:19:55,444 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv@1840276539
+2023-09-17 17:19:56,727 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv
+2023-09-17 17:19:56,728 INFO o.a.j.t.JMeterThread: Thread is done: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 17:19:56,728 INFO o.a.j.t.JMeterThread: Thread finished: Login POS Thread - Get Token - Device ID 2-1
+2023-09-17 17:19:56,728 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Clear data Signin User Token
+2023-09-17 17:19:56,728 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear data Signin User Token.
+2023-09-17 17:19:56,728 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:19:56,729 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:19:56,735 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 17:19:56,735 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Clear data Signin User Token to finish before starting next group
+2023-09-17 17:19:56,735 INFO o.a.j.t.JMeterThread: Thread started: Clear data Signin User Token 3-1
+2023-09-17 17:19:56,738 INFO o.a.j.u.BeanShellTestElement: File existed: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 17:19:56,738 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 17:19:56,739 INFO o.a.j.t.JMeterThread: Thread is done: Clear data Signin User Token 3-1
+2023-09-17 17:19:56,739 INFO o.a.j.t.JMeterThread: Thread finished: Clear data Signin User Token 3-1
+2023-09-17 17:19:56,739 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : Signin - Get info users
+2023-09-17 17:19:56,739 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Signin - Get info users.
+2023-09-17 17:19:56,739 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:19:56,739 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=60 delayedStart=false
+2023-09-17 17:19:56,742 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2023-09-17 17:19:56,742 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Signin - Get info users to finish before starting next group
+2023-09-17 17:19:56,742 INFO o.a.j.t.JMeterThread: Thread started: Signin - Get info users 4-1
+2023-09-17 17:19:56,742 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 17:19:58,822 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 17:19:58,822 INFO o.a.j.t.JMeterThread: Thread is done: Signin - Get info users 4-1
+2023-09-17 17:19:58,823 INFO o.a.j.t.JMeterThread: Thread finished: Signin - Get info users 4-1
+2023-09-17 17:19:58,823 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : Payment Cash Card - Scan To Pay
+2023-09-17 17:19:58,823 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Payment Cash Card - Scan To Pay.
+2023-09-17 17:19:58,823 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:19:58,824 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=10 delayedStart=false
+2023-09-17 17:19:58,824 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2023-09-17 17:19:58,825 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: Payment Cash Card - Scan To Pay to finish before starting next group
+2023-09-17 17:19:58,825 INFO o.a.j.t.JMeterThread: Thread started: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 17:19:58,826 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 17:19:58,826 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 17:19:58,827 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 17:19:58,827 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv Alias: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv@507800184
+2023-09-17 17:20:03,931 INFO o.a.j.t.JMeterThread: Thread is done: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 17:20:03,932 INFO o.a.j.t.JMeterThread: Thread finished: Payment Cash Card - Scan To Pay 5-1
+2023-09-17 17:20:03,933 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : Thread Group
+2023-09-17 17:20:03,933 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 17:20:03,933 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:20:03,933 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:20:03,934 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2023-09-17 17:20:03,934 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 17:20:03,934 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 6-1
+2023-09-17 17:20:03,936 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 6-1
+2023-09-17 17:20:03,936 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 6-1
+2023-09-17 17:20:03,936 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 17:20:03,936 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/pos-account-loggedin-i3.csv@507800184
+2023-09-17 17:20:03,937 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/pos-account-not-login-yet-I3.csv@1840276539
+2023-09-17 17:20:03,938 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/orderid.csv
+2023-09-17 17:20:03,938 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/data-user-i3-signed-up.csv
+2023-09-17 17:20:03,939 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataInput/sessionid.csv
+2023-09-17 17:20:03,939 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/Pay-Function/Pay-Cash-Card/dataOutput/data-user-i3-signed-in.csv
+2023-09-17 17:20:03,940 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:22:28,134 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/load-NFCBand.jmx
+2023-09-17 17:22:28,134 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC'
+2023-09-17 17:22:28,134 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/load-NFCBand.jmx
+2023-09-17 17:22:28,162 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:22:28,164 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:22:28,168 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:22:28,169 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:22:28,233 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC'
+2023-09-17 17:25:56,147 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 17:25:56,147 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 17:25:56,159 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 17:25:56,327 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear Data to Save New Token
+2023-09-17 17:25:56,327 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear Data to Save New Token.
+2023-09-17 17:25:56,327 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:25:56,327 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:25:56,331 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 17:25:56,331 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS - Get new Token
+2023-09-17 17:25:56,331 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS - Get new Token.
+2023-09-17 17:25:56,331 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:25:56,331 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=10 delayedStart=false
+2023-09-17 17:25:56,331 INFO o.a.j.t.JMeterThread: Thread started: Clear Data to Save New Token 1-1
+2023-09-17 17:25:56,333 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:25:56,333 INFO o.a.j.t.JMeterThread: Thread is done: Clear Data to Save New Token 1-1
+2023-09-17 17:25:56,333 INFO o.a.j.t.JMeterThread: Thread finished: Clear Data to Save New Token 1-1
+2023-09-17 17:25:56,335 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 17:25:56,335 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Load NFC Band
+2023-09-17 17:25:56,335 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Load NFC Band.
+2023-09-17 17:25:56,335 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:25:56,335 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 17:25:56,336 INFO o.a.j.t.JMeterThread: Thread started: Login POS - Get new Token 2-1
+2023-09-17 17:25:56,336 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 17:25:56,336 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 17:25:56,336 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv@1621801685
+2023-09-17 17:25:56,336 INFO o.a.j.t.JMeterThread: Thread started: Load NFC Band 3-1
+2023-09-17 17:25:56,337 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/10-nfcbands-onboarded.csv
+2023-09-17 17:25:56,337 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:25:56,337 ERROR o.a.j.t.JMeterThread: Test failed!
+java.lang.IllegalArgumentException: File token-pos-event-manager.csv must exist and be readable
+	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:182) ~[ApacheJMeter_components.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:412) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:404) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.GenericController.next(GenericController.java:170) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.control.LoopController.next(LoopController.java:119) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:109) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:266) [ApacheJMeter_core.jar:5.6.2]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_382]
+2023-09-17 17:25:56,338 INFO o.a.j.t.JMeterThread: Thread finished: Load NFC Band 3-1
+2023-09-17 17:26:00,604 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:26:00,604 INFO o.a.j.t.JMeterThread: Thread is done: Login POS - Get new Token 2-1
+2023-09-17 17:26:00,604 INFO o.a.j.t.JMeterThread: Thread finished: Login POS - Get new Token 2-1
+2023-09-17 17:26:00,605 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 17:26:00,605 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv@1621801685
+2023-09-17 17:26:00,606 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/10-nfcbands-onboarded.csv
+2023-09-17 17:26:00,607 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:27:18,450 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 17:27:18,450 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 17:27:18,470 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 17:27:18,606 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-09-17 17:27:18,606 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 17:27:18,606 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:27:18,606 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:27:18,606 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 17:27:18,606 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 17:27:18,606 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-09-17 17:27:18,607 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2023-09-17 17:27:18,607 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2023-09-17 17:27:18,607 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 17:27:18,607 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:28:29,205 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 17:28:29,206 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 17:28:29,217 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 17:28:29,342 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Clear Data to Save New Token
+2023-09-17 17:28:29,342 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Clear Data to Save New Token.
+2023-09-17 17:28:29,342 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:28:29,342 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:28:29,345 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 17:28:29,345 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Login POS - Get new Token
+2023-09-17 17:28:29,345 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Login POS - Get new Token.
+2023-09-17 17:28:29,345 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:28:29,345 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=10 delayedStart=false
+2023-09-17 17:28:29,345 INFO o.a.j.t.JMeterThread: Thread started: Clear Data to Save New Token 1-1
+2023-09-17 17:28:29,348 INFO o.a.j.u.BeanShellTestElement: File deleted successfully: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:28:29,348 INFO o.a.j.t.JMeterThread: Thread is done: Clear Data to Save New Token 1-1
+2023-09-17 17:28:29,348 INFO o.a.j.t.JMeterThread: Thread finished: Clear Data to Save New Token 1-1
+2023-09-17 17:28:29,350 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 17:28:29,350 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : Thread Group
+2023-09-17 17:28:29,350 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 17:28:29,350 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:28:29,350 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:28:29,350 INFO o.a.j.t.JMeterThread: Thread started: Login POS - Get new Token 2-1
+2023-09-17 17:28:29,350 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv Alias: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv@1847967822
+2023-09-17 17:28:29,350 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2023-09-17 17:28:29,350 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 17:28:29,350 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 3-1
+2023-09-17 17:28:29,351 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 3-1
+2023-09-17 17:28:29,351 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 3-1
+2023-09-17 17:28:32,565 INFO o.a.j.u.BeanShellTestElement: File successfully written to: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:28:32,565 INFO o.a.j.t.JMeterThread: Thread is done: Login POS - Get new Token 2-1
+2023-09-17 17:28:32,565 INFO o.a.j.t.JMeterThread: Thread finished: Login POS - Get new Token 2-1
+2023-09-17 17:28:32,565 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 17:28:32,565 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/pos-account-event-manager-auto-1-s2.csv@1847967822
+2023-09-17 17:28:32,567 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:29:25,547 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-09-17 17:29:25,547 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-09-17 17:29:25,562 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Load NFC Band
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Load NFC Band.
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:29:25,685 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=30 delayedStart=false
+2023-09-17 17:29:25,685 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Thread Group
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2023-09-17 17:29:25,685 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-09-17 17:29:25,685 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2023-09-17 17:29:25,686 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2023-09-17 17:29:25,686 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-09-17 17:29:25,686 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 2-1
+2023-09-17 17:29:25,686 INFO o.a.j.t.JMeterThread: Thread started: Load NFC Band 1-1
+2023-09-17 17:29:25,686 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/10-nfcbands-onboarded.csv
+2023-09-17 17:29:25,687 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 2-1
+2023-09-17 17:29:25,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 2-1
+2023-09-17 17:29:25,687 INFO o.a.j.s.FileServer: Stored: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:29:31,530 INFO o.a.j.t.JMeterThread: Thread is done: Load NFC Band 1-1
+2023-09-17 17:29:31,531 INFO o.a.j.t.JMeterThread: Thread finished: Load NFC Band 1-1
+2023-09-17 17:29:31,531 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2023-09-17 17:29:31,532 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataOutput/token-pos-event-manager.csv
+2023-09-17 17:29:31,533 INFO o.a.j.s.FileServer: Close: /home/chishiki/Desktop/saveFile1/NFCBand/Load-NFC/dataInput/10-nfcbands-onboarded.csv
+2023-09-17 17:29:31,534 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2023-09-17 17:40:33,899 INFO o.a.j.g.a.Load: Loading file: /home/chishiki/Desktop/saveFile1/ARM-Function/POSAccount/POSAccount.jmx
+2023-09-17 17:40:33,900 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/ARM-Function/POSAccount'
+2023-09-17 17:40:33,900 INFO o.a.j.s.SaveService: Loading file: /home/chishiki/Desktop/saveFile1/ARM-Function/POSAccount/POSAccount.jmx
+2023-09-17 17:40:33,903 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2023-09-17 17:40:33,929 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:40:33,930 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:40:33,935 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:40:33,936 INFO o.a.j.r.ClassFinder: Will scan jar /home/chishiki/Downloads/apache-jmeter-5.6.2/lib/ext/jmeter-plugins-dummy-0.4.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-09-17 17:40:34,030 INFO o.a.j.s.FileServer: Set new base='/home/chishiki/Desktop/saveFile1/ARM-Function/POSAccount'
+2023-09-17 17:49:12,680 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Parsed CURL command curl 'https://arm-bs-integration3.tpser.net/ajax/businesslocation/getStores?keyword=&pageIndex=0&pageSize=5' \
+  -H 'authority: arm-bs-integration3.tpser.net' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: amp_6e403e=zk3AppYTJ15rHQsiHDIlGl...1h8nqt6nn.1h8nqt6nn.0.0.0; org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=en_BS; ARM_COUNTRY=BS; JSESSIONID=04783C57B99D1462E0978F4CC634BB2D; qwertyuiop=04783C57B99D1462E0978F4CC634BB2D' \
+  -H 'referer: https://arm-bs-integration3.tpser.net/businesslocation/all' \
+  -H 'sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' \
+  -H 'x-requested-with: XMLHttpRequest' \
+  --compressed into Request [compressed=true, url=https://arm-bs-integration3.tpser.net/ajax/businesslocation/getStores?keyword=&pageIndex=0&pageSize=5, method=GET, headers=[(authority,arm-bs-integration3.tpser.net), (accept,*/*), (accept-language,en-US,en;q=0.9), (referer,https://arm-bs-integration3.tpser.net/businesslocation/all), (sec-ch-ua,"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"), (sec-ch-ua-mobile,?0), (sec-ch-ua-platform,"Linux"), (sec-fetch-dest,empty), (sec-fetch-mode,cors), (sec-fetch-site,same-origin), (user-agent,Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36), (x-requested-with,XMLHttpRequest)]]
+2023-09-17 17:49:12,681 INFO o.a.j.p.h.g.a.ParseCurlCommandAction: Newly created element will be placed under current selected node Thread Group

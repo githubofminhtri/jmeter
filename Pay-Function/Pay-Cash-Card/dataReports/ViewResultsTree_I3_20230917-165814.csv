@@ -1,0 +1,47 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1694944694763,2,Clear data,200,OK,Clear data Signin User Token 1-1,text,true,,0,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
+1694944694770,1524,Signin,200,,Signin - Get info users 2-1,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1524,UTF-8,1,0,chishiki,0,918
+1694944696297,511,Get Card Token,200,,Signin - Get info users 2-1,text,true,,1993,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,511,ISO-8859-1,1,0,chishiki,0,0
+1694944697498,1408,Signin,200,,Signin - Get info users 2-2,text,true,,2692,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1408,UTF-8,1,0,chishiki,0,858
+1694944698909,545,Get Card Token,200,,Signin - Get info users 2-2,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,545,ISO-8859-1,1,0,chishiki,0,0
+1694944700224,1290,Signin,200,,Signin - Get info users 2-3,text,true,,2690,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1290,UTF-8,1,0,chishiki,0,779
+1694944701517,514,Get Card Token,200,,Signin - Get info users 2-3,text,true,,1988,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,514,ISO-8859-1,1,0,chishiki,0,0
+1694944702953,1524,Signin,200,,Signin - Get info users 2-4,text,true,,2688,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1523,UTF-8,1,0,chishiki,0,916
+1694944704479,526,Get Card Token,200,,Signin - Get info users 2-4,text,true,,1986,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,526,ISO-8859-1,1,0,chishiki,0,0
+1694944705679,1474,Signin,200,,Signin - Get info users 2-5,text,true,,2704,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1473,UTF-8,1,0,chishiki,0,846
+1694944707156,502,Get Card Token,200,,Signin - Get info users 2-5,text,true,,2001,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,501,ISO-8859-1,1,0,chishiki,0,0
+1694944708407,1508,Signin,200,,Signin - Get info users 2-6,text,true,,2698,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1507,UTF-8,1,0,chishiki,0,893
+1694944709917,611,Get Card Token,200,,Signin - Get info users 2-6,text,true,,1995,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,611,ISO-8859-1,1,0,chishiki,0,0
+1694944711134,1448,Signin,200,,Signin - Get info users 2-7,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1448,UTF-8,1,0,chishiki,0,865
+1694944712586,601,Get Card Token,200,,Signin - Get info users 2-7,text,true,,1994,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,601,ISO-8859-1,1,0,chishiki,0,0
+1694944713861,1586,Signin,200,,Signin - Get info users 2-8,text,true,,2686,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1586,UTF-8,1,0,chishiki,0,921
+1694944715450,501,Get Card Token,200,,Signin - Get info users 2-8,text,true,,1984,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,500,ISO-8859-1,1,0,chishiki,0,0
+1694944716586,1426,Signin,200,,Signin - Get info users 2-9,text,true,,2692,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1426,UTF-8,1,0,chishiki,0,901
+1694944718015,547,Get Card Token,200,,Signin - Get info users 2-9,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,546,ISO-8859-1,1,0,chishiki,0,0
+1694944719314,1670,Signin,200,,Signin - Get info users 2-10,text,true,,2692,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1669,UTF-8,1,0,chishiki,0,1088
+1694944720987,485,Get Card Token,200,,Signin - Get info users 2-10,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,485,ISO-8859-1,1,0,chishiki,0,0
+1694944722043,1600,Signin,200,,Signin - Get info users 2-11,text,true,,2690,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1600,UTF-8,1,0,chishiki,0,1085
+1694944723646,602,Get Card Token,200,,Signin - Get info users 2-11,text,true,,1988,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,602,ISO-8859-1,1,0,chishiki,0,0
+1694944724771,1404,Signin,200,,Signin - Get info users 2-12,text,true,,2688,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1403,UTF-8,1,0,chishiki,0,863
+1694944726177,547,Get Card Token,200,,Signin - Get info users 2-12,text,true,,1986,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,546,ISO-8859-1,1,0,chishiki,0,0
+1694944727496,2383,Signin,200,,Signin - Get info users 2-13,text,true,,2684,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,2382,UTF-8,1,0,chishiki,0,1776
+1694944729880,614,Get Card Token,200,,Signin - Get info users 2-13,text,true,,1981,933,2,2,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,614,ISO-8859-1,1,0,chishiki,0,0
+1694944730223,1400,Signin,200,,Signin - Get info users 2-14,text,true,,2692,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1400,UTF-8,1,0,chishiki,0,884
+1694944731625,508,Get Card Token,200,,Signin - Get info users 2-14,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,508,ISO-8859-1,1,0,chishiki,0,0
+1694944732949,1542,Signin,200,,Signin - Get info users 2-15,text,true,,2700,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1541,UTF-8,1,0,chishiki,0,923
+1694944734493,506,Get Card Token,200,,Signin - Get info users 2-15,text,true,,1998,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,506,ISO-8859-1,1,0,chishiki,0,0
+1694944735677,1369,Signin,200,,Signin - Get info users 2-16,text,true,,2692,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1369,UTF-8,1,0,chishiki,0,856
+1694944737050,511,Get Card Token,200,,Signin - Get info users 2-16,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,510,ISO-8859-1,1,0,chishiki,0,0
+1694944738403,1297,Signin,200,,Signin - Get info users 2-17,text,true,,2690,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1297,UTF-8,1,0,chishiki,0,780
+1694944739701,622,Get Card Token,200,,Signin - Get info users 2-17,text,true,,1988,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,622,ISO-8859-1,1,0,chishiki,0,0
+1694944741130,1548,Signin,200,,Signin - Get info users 2-18,text,true,,2694,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1548,UTF-8,1,0,chishiki,0,933
+1694944742681,512,Get Card Token,200,,Signin - Get info users 2-18,text,true,,1990,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,512,ISO-8859-1,1,0,chishiki,0,0
+1694944743858,1594,Signin,200,,Signin - Get info users 2-19,text,true,,2690,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1594,UTF-8,1,0,chishiki,0,973
+1694944745454,610,Get Card Token,200,,Signin - Get info users 2-19,text,true,,1988,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,610,ISO-8859-1,1,0,chishiki,0,0
+1694944746584,1525,Signin,200,,Signin - Get info users 2-20,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1525,UTF-8,1,0,chishiki,0,907
+1694944748111,527,Get Card Token,200,,Signin - Get info users 2-20,text,true,,1997,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,527,ISO-8859-1,1,0,chishiki,0,0
+1694944749311,1461,Signin,200,,Signin - Get info users 2-21,text,true,,2694,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1461,UTF-8,1,0,chishiki,0,851
+1694944750774,369,Get Card Token,200,,Signin - Get info users 2-21,text,true,,1434,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,368,ISO-8859-1,1,0,chishiki,0,0
+1694944752037,1498,Signin,200,,Signin - Get info users 2-22,text,true,,2696,967,1,1,https://api-integration3.kardsys.com/visikard/44/accounts/login/app,,1498,UTF-8,1,0,chishiki,0,880
+1694944753537,359,Get Card Token,200,,Signin - Get info users 2-22,text,true,,1435,933,1,1,https://api-integration3.kardsys.com/visipay/api/28/getAccounts,,359,ISO-8859-1,1,0,chishiki,0,0
+1694944753902,0,Debug Sampler,200,OK,Thread Group 3-1,text,true,,1031,0,1,1,null,,0,UTF-8,1,0,chishiki,0,0
