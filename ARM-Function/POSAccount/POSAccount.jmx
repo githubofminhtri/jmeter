@@ -10,7 +10,7 @@
       </elementProp>
     </TestPlan>
     <hashTree>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Integration 3" enabled="false">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Integration 3" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="domain_ARM_" elementType="Argument">
             <stringProp name="Argument.name">domain_ARM_</stringProp>
@@ -20,7 +20,7 @@
           <elementProp name="cookie_ARM_" elementType="Argument">
             <stringProp name="Argument.name">cookie_ARM_</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.value">7EDA25C264B5FC2535E340E2A7640833</stringProp>
+            <stringProp name="Argument.value">CB1FDB3E9A99A7B7130BC161436485A1</stringProp>
           </elementProp>
           <elementProp name="dataPosAccountExcludePIN" elementType="Argument">
             <stringProp name="Argument.name">dataPosAccountExcludePIN</stringProp>
@@ -42,10 +42,20 @@
             <stringProp name="Argument.value">data-pos-account-i3-not-register-yet.csv</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="domain_POS_API_" elementType="Argument">
+            <stringProp name="Argument.name">domain_POS_API_</stringProp>
+            <stringProp name="Argument.value">api-integration3.kardsys.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">6.0.0.3</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Integration 2" enabled="true">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Integration 2" enabled="false">
         <collectionProp name="Arguments.arguments">
           <elementProp name="domain_ARM_" elementType="Argument">
             <stringProp name="Argument.name">domain_ARM_</stringProp>
@@ -55,7 +65,7 @@
           <elementProp name="cookie_ARM_" elementType="Argument">
             <stringProp name="Argument.name">cookie_ARM_</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.value">6FE4A1A274090644E4022F54C4664FE3</stringProp>
+            <stringProp name="Argument.value">8BBEB617DE82FCBA130CB82D6ECF21D8</stringProp>
           </elementProp>
           <elementProp name="dataPosAccountExcludePIN" elementType="Argument">
             <stringProp name="Argument.name">dataPosAccountExcludePIN</stringProp>
@@ -77,6 +87,16 @@
             <stringProp name="Argument.value">data-pos-account-i2-not-register-yet.csv</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="domain_POS_API_" elementType="Argument">
+            <stringProp name="Argument.value">kanoo-gateway-integration2.kardsys.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.name">domain_POS_API_</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">6.0.0.3</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -90,7 +110,7 @@
           <elementProp name="cookie_ARM_" elementType="Argument">
             <stringProp name="Argument.name">cookie_ARM_</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.value">6A0607AF25BDB16EE15FAF7FF3C5674D</stringProp>
+            <stringProp name="Argument.value">82AF0A501DDDD35ADD63CAA562C1EFB4</stringProp>
           </elementProp>
           <elementProp name="dataPosAccountExcludePIN" elementType="Argument">
             <stringProp name="Argument.name">dataPosAccountExcludePIN</stringProp>
@@ -115,6 +135,66 @@
           <elementProp name="dataTerminalIDRegistered" elementType="Argument">
             <stringProp name="Argument.name">dataTerminalIDRegistered</stringProp>
             <stringProp name="Argument.value">data-terminal-id-registered-s1.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="domain_POS_API_" elementType="Argument">
+            <stringProp name="Argument.name">domain_POS_API_</stringProp>
+            <stringProp name="Argument.value">kanoo-gateway-sandbox.kardsys.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">6.0.0.3</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Environment - Staging 2" enabled="false">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="domain_ARM_" elementType="Argument">
+            <stringProp name="Argument.name">domain_ARM_</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">arm-kanoo-hotfix.kardsys.com</stringProp>
+          </elementProp>
+          <elementProp name="cookie_ARM_" elementType="Argument">
+            <stringProp name="Argument.name">cookie_ARM_</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.value">7232797301D226B615B2586E43255BEC</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccountExcludePIN" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccountExcludePIN</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s2-exclude-PIN.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataPosAccountIncludePIN" elementType="Argument">
+            <stringProp name="Argument.name">dataPosAccountIncludePIN</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s2-include-PIN.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataPOSAccRegistered" elementType="Argument">
+            <stringProp name="Argument.name">dataPOSAccRegistered</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s2-registered.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataPOSAccNotRegister" elementType="Argument">
+            <stringProp name="Argument.name">dataPOSAccNotRegister</stringProp>
+            <stringProp name="Argument.value">data-pos-account-s2-not-register-yet.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="dataTerminalIDRegistered" elementType="Argument">
+            <stringProp name="Argument.name">dataTerminalIDRegistered</stringProp>
+            <stringProp name="Argument.value">data-terminal-id-registered-s2.csv</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="domain_POS_API_" elementType="Argument">
+            <stringProp name="Argument.name">domain_POS_API_</stringProp>
+            <stringProp name="Argument.value">kanoo-gateway-hotfix.kardsys.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="app_Version_" elementType="Argument">
+            <stringProp name="Argument.name">app_Version_</stringProp>
+            <stringProp name="Argument.value">6.0.0.3</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -203,7 +283,7 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Clear Data to Save Account" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Clear Data to Save Account" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <stringProp name="LoopController.loops">1</stringProp>
@@ -256,14 +336,14 @@ try {
         </BeanShellSampler>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Register POS Account" enabled="false">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Register POS Account" enabled="true">
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <stringProp name="LoopController.loops">5</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">10</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <stringProp name="ThreadGroup.num_threads">4</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">60</stringProp>
         <boolProp name="ThreadGroup.delayedStart">false</boolProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -275,7 +355,7 @@ try {
           <stringProp name="filename">${dataInputVariable}${dataPOSAccNotRegister}</stringProp>
           <stringProp name="fileEncoding"></stringProp>
           <stringProp name="variableNames">fname,lname,email,title,deviceID,deviceToken</stringProp>
-          <boolProp name="ignoreFirstLine">true</boolProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
           <stringProp name="delimiter">,</stringProp>
           <boolProp name="quotedData">false</boolProp>
           <boolProp name="recycle">true</boolProp>
@@ -283,114 +363,129 @@ try {
           <stringProp name="shareMode">shareMode.all</stringProp>
         </CSVDataSet>
         <hashTree/>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Get location id" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="keyword" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">keyword</stringProp>
-              </elementProp>
-              <elementProp name="pageIndex" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">pageIndex</stringProp>
-                <stringProp name="Argument.value">0</stringProp>
-              </elementProp>
-              <elementProp name="pageSize" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-                <stringProp name="Argument.name">pageSize</stringProp>
-                <stringProp name="Argument.value">10</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${domain_ARM_}</stringProp>
-          <stringProp name="HTTPSampler.protocol">https</stringProp>
-          <stringProp name="HTTPSampler.path">/ajax/businesslocation/getStores</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
-          <boolProp name="HTTPSampler.image_parser">false</boolProp>
-          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
-          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
-          <boolProp name="HTTPSampler.md5">false</boolProp>
-          <intProp name="HTTPSampler.ipSourceType">0</intProp>
-          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
-          <stringProp name="TestPlan.comments">Created from cURL on 2023-09-17T17:49:12.682</stringProp>
-        </HTTPSamplerProxy>
+        <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="false">
+          <stringProp name="filename">${dataOutputVariable}${dataPOSAccRegistered}</stringProp>
+          <stringProp name="fileEncoding"></stringProp>
+          <stringProp name="variableNames">userID,pinPass,email,merchantID,deviceID,deviceToken</stringProp>
+          <boolProp name="ignoreFirstLine">false</boolProp>
+          <stringProp name="delimiter">,</stringProp>
+          <boolProp name="quotedData">false</boolProp>
+          <boolProp name="recycle">true</boolProp>
+          <boolProp name="stopThread">false</boolProp>
+          <stringProp name="shareMode">shareMode.all</stringProp>
+        </CSVDataSet>
+        <hashTree/>
+        <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>
         <hashTree>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP HeaderManager" enabled="true">
-            <collectionProp name="HeaderManager.headers">
-              <elementProp name="accept" elementType="Header">
-                <stringProp name="Header.name">accept</stringProp>
-                <stringProp name="Header.value">*/*</stringProp>
-              </elementProp>
-              <elementProp name="referer" elementType="Header">
-                <stringProp name="Header.name">referer</stringProp>
-                <stringProp name="Header.value">https://arm-bs-integration3.tpser.net/businesslocation/all</stringProp>
-              </elementProp>
-            </collectionProp>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Get location id" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="keyword" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">keyword</stringProp>
+                </elementProp>
+                <elementProp name="pageIndex" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">pageIndex</stringProp>
+                  <stringProp name="Argument.value">0</stringProp>
+                </elementProp>
+                <elementProp name="pageSize" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                  <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                  <stringProp name="Argument.name">pageSize</stringProp>
+                  <stringProp name="Argument.value">10</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${domain_ARM_}</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">/ajax/businesslocation/getStores</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+            <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
             <stringProp name="TestPlan.comments">Created from cURL on 2023-09-17T17:49:12.682</stringProp>
-          </HeaderManager>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor - get location id" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">locationID</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$.list[0].id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Get role id" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-            <collectionProp name="Arguments.arguments"/>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${domain_ARM_}</stringProp>
-          <stringProp name="HTTPSampler.protocol">https</stringProp>
-          <stringProp name="HTTPSampler.path">/ajax/merchant/controlpanel/role?name=&amp;active=</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
-          <boolProp name="HTTPSampler.image_parser">false</boolProp>
-          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
-          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
-          <boolProp name="HTTPSampler.md5">false</boolProp>
-          <intProp name="HTTPSampler.ipSourceType">0</intProp>
-          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
-          <stringProp name="TestPlan.comments">Created from cURL on 2023-09-30T15:23:28.697</stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP HeaderManager" enabled="true">
-            <collectionProp name="HeaderManager.headers">
-              <elementProp name="accept" elementType="Header">
-                <stringProp name="Header.name">accept</stringProp>
-                <stringProp name="Header.value">*/*</stringProp>
-              </elementProp>
-              <elementProp name="content-type" elementType="Header">
-                <stringProp name="Header.name">content-type</stringProp>
-                <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
-              </elementProp>
-            </collectionProp>
-            <stringProp name="TestPlan.comments">Created from cURL on 2023-09-17T15:35:43.758</stringProp>
-          </HeaderManager>
-          <hashTree/>
-          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor - Get Role ID" enabled="true">
-            <stringProp name="JSONPostProcessor.referenceNames">roleID</stringProp>
-            <stringProp name="JSONPostProcessor.jsonPathExprs">$..id</stringProp>
-            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
-          </JSONPostProcessor>
-          <hashTree/>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP HeaderManager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://arm-bs-integration3.tpser.net/businesslocation/all</stringProp>
+                </elementProp>
+              </collectionProp>
+              <stringProp name="TestPlan.comments">Created from cURL on 2023-09-17T17:49:12.682</stringProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor - get location id" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">locationID</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$.list[0].id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request - Get role id 2" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">${domain_ARM_}</stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.path">/ajax/merchant/controlpanel/role?name=&amp;active=</stringProp>
+            <stringProp name="HTTPSampler.method">GET</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+            <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
+            <stringProp name="TestPlan.comments">Created from cURL on 2023-09-30T15:23:28.697</stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP HeaderManager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+              <stringProp name="TestPlan.comments">Created from cURL on 2023-09-17T15:35:43.758</stringProp>
+            </HeaderManager>
+            <hashTree/>
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor - Get Role ID" enabled="true">
+              <stringProp name="JSONPostProcessor.referenceNames">roleID</stringProp>
+              <stringProp name="JSONPostProcessor.jsonPathExprs">$..id</stringProp>
+              <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            </JSONPostProcessor>
+            <hashTree/>
+          </hashTree>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create POS Account" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
@@ -490,26 +585,38 @@ try {
           </JSONPostProcessor>
           <hashTree/>
           <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion" enabled="true">
-            <stringProp name="BeanShellAssertion.query">log.info(&quot;${userID}&quot;);
-log.info(&quot;${pinPass}&quot;);
-log.info(&quot;${token}&quot;);
-log.info(&quot;${merchantID}&quot;);
-log.info(&quot;${email}&quot;);
-log.info(&quot;${deviceID}&quot;);
-log.info(&quot;${deviceToken}&quot;);
-user_ID = vars.get(&quot;userID&quot;);
-pin_Pass = 111111;
-token_ = vars.get(&quot;token&quot;);
-merchant_Id = vars.get(&quot;merchantID&quot;);
-email_ = vars.get(&quot;email&quot;);
-device_ID = vars.get(&quot;deviceID&quot;);
-device_Token = vars.get(&quot;deviceToken&quot;);
-path = vars.get(&quot;dataOutputVariable&quot;) + vars.get(&quot;dataPOSAccRegistered&quot;);
-f = new FileOutputStream(path, true);
-p= new PrintStream(f);
-this.interpreter.setOut(p);
-if (token !=null) print(user_ID + &quot;,&quot; +pin_Pass + &quot;,&quot; + token_+ &quot;,&quot; + email_ + &quot;,&quot; + merchant_Id + &quot;,&quot; + device_ID + &quot;,&quot; + device_Token );
-f.close();
+            <stringProp name="BeanShellAssertion.query">import java.io.FileWriter;
+import java.io.BufferedWriter;
+
+// Specify the file path and name
+String filePath = vars.get(&quot;dataOutputVariable&quot;)+vars.get(&quot;dataPOSAccRegistered&quot;);
+BufferedWriter bufferedWriter = null;
+
+try {
+	bufferedWriter = new BufferedWriter(new FileWriter(filePath,true));
+
+
+		// Get POS data
+		String user_ID_ = vars.get(&quot;userID&quot;);
+		String pin_Pass_ = vars.get(&quot;pinPass&quot;);
+		String merchant_Id_ = vars.get(&quot;merchantID&quot;);
+		String email_ = vars.get(&quot;email&quot;);
+		String device_ID_ = vars.get(&quot;deviceID&quot;);
+		String device_Token_ = vars.get(&quot;deviceToken&quot;);
+		String content = user_ID_ + &quot;,&quot; + pin_Pass_ + &quot;,&quot; + email_ + &quot;,&quot; + merchant_Id_ + &quot;,&quot; + device_ID_ + &quot;,&quot; + device_Token_ +&quot;,\n&quot;;
+		// Write content to file
+     	bufferedWriter.write(content);
+
+ 
+    // Close the BufferedWriter and FileWriter
+     bufferedWriter.close();
+    
+    // Log a message indicating success
+     log.info(&quot;File successfully written to: &quot; + filePath);
+} catch (Exception e) {
+    // Handle exceptions, e.g., log an error message
+     log.error(&quot;Error writing to the file: &quot; + e.toString());
+}
 </stringProp>
             <stringProp name="BeanShellAssertion.filename"></stringProp>
             <stringProp name="BeanShellAssertion.parameters"></stringProp>
@@ -517,7 +624,7 @@ f.close();
           </BeanShellAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login to POS" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login to POS" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -621,7 +728,7 @@ f.close();
           </JSONPostProcessor>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Register Terminal" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Register Terminal" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -909,7 +1016,7 @@ try {
             <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
           </HtmlExtractor>
           <hashTree/>
-          <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor - Get Emails POS Account" enabled="true">
+          <HtmlExtractor guiclass="HtmlExtractorGui" testclass="HtmlExtractor" testname="CSS Selector Extractor - Get Emails POS Account" enabled="false">
             <stringProp name="HtmlExtractor.refname">emails</stringProp>
             <stringProp name="HtmlExtractor.expr">#table_accounts &gt; tbody &gt; tr &gt; td:nth-child(3)</stringProp>
             <stringProp name="HtmlExtractor.attribute"></stringProp>
@@ -919,7 +1026,7 @@ try {
             <stringProp name="HtmlExtractor.extractor_impl"></stringProp>
           </HtmlExtractor>
           <hashTree/>
-          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion - Save iD and email" enabled="true">
+          <BeanShellAssertion guiclass="BeanShellAssertionGui" testclass="BeanShellAssertion" testname="BeanShell Assertion - Save iD and email" enabled="false">
             <stringProp name="BeanShellAssertion.query">import java.io.FileWriter;
 import java.io.BufferedWriter;
 
@@ -1307,96 +1414,11 @@ try {
             <hashTree/>
           </hashTree>
         </hashTree>
-        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
           <boolProp name="displayJMeterProperties">false</boolProp>
           <boolProp name="displayJMeterVariables">true</boolProp>
           <boolProp name="displaySystemProperties">false</boolProp>
         </DebugSampler>
-        <hashTree/>
-      </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group - Get location id" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <stringProp name="LoopController.loops">1</stringProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-      </ThreadGroup>
-      <hashTree/>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group - Get role id" enabled="true">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <stringProp name="LoopController.loops">1</stringProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-      </ThreadGroup>
-      <hashTree>
-        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="true">
-          <boolProp name="displayJMeterProperties">false</boolProp>
-          <boolProp name="displayJMeterVariables">true</boolProp>
-          <boolProp name="displaySystemProperties">false</boolProp>
-        </DebugSampler>
-        <hashTree/>
-      </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Clear data to save terminal id" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <stringProp name="LoopController.loops">1</stringProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-      </ThreadGroup>
-      <hashTree>
-        <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="Clear data" enabled="true">
-          <stringProp name="BeanShellSampler.query">import java.io.File;
-
-// Define the file path
-String filePath = vars.get(&quot;dataOutputVariable&quot;)+vars.get(&quot;dataTerminalIDRegistered&quot;);
-
-try {
-    File file = new File(filePath);
-
-    if (file.exists()) {
-    		log.info(&quot;File existed: &quot; + filePath);
-        if (file.delete()) {
-            // File deleted successfully
-            log.info(&quot;File deleted successfully: &quot; + filePath);
-        } else {
-            // Unable to delete the file
-            log.error(&quot;Unable to delete the file: &quot; + filePath);
-        }
-    } else {
-        // File does not exist
-        log.info(&quot;File does not exist: &quot; + filePath);
-        file.createNewFile();
-        log.info(&quot;File created successfully:  &quot; + filePath);
-    }
-} catch (Exception e) {
-    // Handle exceptions, e.g., log an error message
-    log.error(&quot;Error: &quot; + e.toString());
-}
-</stringProp>
-          <boolProp name="BeanShellSampler.resetInterpreter">false</boolProp>
-        </BeanShellSampler>
         <hashTree/>
       </hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group - Get terminal ID" enabled="false">
@@ -1520,21 +1542,6 @@ try {
         </DebugSampler>
         <hashTree/>
       </hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group - Delete POS Accounts" enabled="false">
-        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
-        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
-          <stringProp name="LoopController.loops">1</stringProp>
-          <boolProp name="LoopController.continue_forever">false</boolProp>
-        </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
-        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
-        <boolProp name="ThreadGroup.scheduler">false</boolProp>
-        <stringProp name="ThreadGroup.duration"></stringProp>
-        <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
-      </ThreadGroup>
-      <hashTree/>
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
