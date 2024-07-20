@@ -26,4 +26,11 @@ jobs:
       - name: List files in the repository
         run: |
           ls -lR ${{ github.workspace }}
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add reports
+          git commit -m 'Deploy JMeter report'
+          git push origin `git subtree split --prefix report_dir main`:gh-pages --force
       - run: echo "🍏 This job's status is ${{ job.status }}."
