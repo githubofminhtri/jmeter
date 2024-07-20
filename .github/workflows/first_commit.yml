@@ -18,4 +18,9 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Run JMeter Action on a test
+        uses: rbhadti94/apache-jmeter-action@v0.7.0
+        with:
+          testFilePath: ./get_brands_list.jmx
+          outputReportsFolder: reports/
       - run: echo "🍏 This job's status is ${{ job.status }}."
