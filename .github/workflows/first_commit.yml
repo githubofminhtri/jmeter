@@ -23,4 +23,7 @@ jobs:
         with:
           testFilePath: ./get_brands_list.jmx
           outputReportsFolder: reports/
+      - name: List files in the repository
+        run: |
+          ls -lR ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
