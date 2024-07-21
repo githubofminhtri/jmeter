@@ -32,6 +32,6 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add reports
           git commit -m 'Deploy JMeter report'
-          git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }} `git subtree split --prefix report_dir main`:gh-pages
+          git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }} `git subtree split --prefix reports first_commit`:gh-pages
           # git push origin `git subtree split --prefix reports first_commit`:gh-pages --force
       - run: echo "🍏 This job's status is ${{ job.status }}."
