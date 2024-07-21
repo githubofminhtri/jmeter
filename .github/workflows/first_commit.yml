@@ -32,7 +32,11 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add reports
+          git clone https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }} gh-pages
+          cd gh-pages
+          git checkout gh-pages || git checkout --orphan gh-pages
+          cp -r ../reports/* .
+          git add .
           git commit -m 'Deploy JMeter report'
-          git push -f https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/${{ github.repository }} `git subtree split --prefix reports main`:gh-pages
+          git push origin gh-pages
       - run: echo "🍏 This job's status is ${{ job.status }}."
