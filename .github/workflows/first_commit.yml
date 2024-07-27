@@ -31,6 +31,10 @@ jobs:
         with: 
           name: report-jmeter
           path: reports/
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: report-jmeter
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_KEY }}
